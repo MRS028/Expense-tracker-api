@@ -8,9 +8,9 @@ This project was built as the **Mid Term assignment (Module 24)** for the Phitro
 
 ## Live Demo
 
-- **Base URL**: https://expense-tracker-api.onrender.com
-- **Swagger UI**: https://expense-tracker-api.onrender.com/docs
-- **ReDoc**: https://expense-tracker-api.onrender.com/redoc
+- **Base URL**: https://expense-tracker-api-1phr.onrender.com
+- **Swagger UI**: https://expense-tracker-api-1phr.onrender.com/docs
+- **ReDoc**: https://expense-tracker-api-1phr.onrender.com/redoc
 
 ---
 
@@ -78,7 +78,7 @@ expense-tracker-api/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/expense-tracker-api.git
+git clone https://github.com/MRS028/expense-tracker-api.git
 cd expense-tracker-api
 ```
 
@@ -279,7 +279,7 @@ Add these environment variables:
 
 ## Author
 
-**Your Name**
+- Name: Md. Rifat Sheikh
 - GitHub: [@MRS028](https://github.com/MRS028)
 - Email: rifat.seu.cse@gmail.com
 
