@@ -10,7 +10,6 @@ This project was built as the **Mid Term assignment (Module 24)** for the Phitro
 
 - **Base URL**: https://expense-tracker-api-1phr.onrender.com
 - **Swagger UI**: https://expense-tracker-api-1phr.onrender.com/docs
-- **ReDoc**: https://expense-tracker-api-1phr.onrender.com/redoc
 
 ---
 
