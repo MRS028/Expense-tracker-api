@@ -1,5 +1,8 @@
 .env
-tests/
 venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+test.db
 .vscode
-venv
+postman_collection.json

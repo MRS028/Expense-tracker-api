@@ -1,0 +1,40 @@
+databases:
+  - name: expense-db
+    databaseName: expense_db
+    user: expense_user
+    plan: free
+    region: oregon
+
+services:
+  - type: web
+    name: expense-tracker-api
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DB_USER
+        fromDatabase:
+          name: expense-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: expense-db
+          property: password
+      - key: DB_HOST
+        fromDatabase:
+          name: expense-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: expense-db
+          property: port
+      - key: DB_NAME
+        fromDatabase:
+          name: expense-db
+          property: database
+      - key: PYTHON_VERSION
+        value: 3.12.10
