@@ -11,4 +11,4 @@ app.include_router(transaction_router.router)
 
 @app.get("/")
 def root():
-    return {"message": "Expense Tracker API is running"}
+    return {"message": "Expense Tracker API is running"} 
